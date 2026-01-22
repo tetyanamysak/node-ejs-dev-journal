@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("partials/header.ejs") %>
+
+  <body>
+    <main>
+      <div class="post-detail-container">
+        <article class="full-post-card">
+          <h1><%= post.title %></h1>
+
+          <div class="post-meta">
+            <span>Post ID: #<%= post.id %></span>
+            <span>•</span>
+            <span>Published: <%= new Date().toLocaleDateString() %></span>
+          </div>
+
+          <div class="post-full-text">
+            <p><%= post.content %></p>
+          </div>
+
+          <div class="post-navigation">
+            <a href="/" class="read-more">← Back to Blog Home</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <%- include("partials/footer.ejs") %>
+  </body>
+</html>
