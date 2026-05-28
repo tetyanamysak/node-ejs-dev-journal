@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("partials/header.ejs") %>
+  <body>
+    <main>
+      <section class="hero-section">
+        <h1><%= message %></h1>
+        <p>Welcome to my new Node.js, Express, and EJS application!</p>
+      </section>
+
+      <hr />
+
+      <div class="blog-grid">
+        <% if (locals.posts && posts.length > 0) { %> <% posts.forEach(post => {
+        %>
+
+        <!-- Each 'post' from app.js array becomes one of these boxes -->
+        <article class="blog-card">
+          <div class="blog-card-image"></div>
+          <div class="blog-card-content">
+            <h2><%= post.title %></h2>
+            <p><%= post.excerpt %></p>
+            <a href="/post/<%= post.id %>" class="read-more">Read Full Post</a>
+          </div>
+        </article>
+
+        <% }) %> <% } else { %>
+        <!-- Fallback message if the array is empty or missing -->
+        <p>No blog posts available at the moment.</p>
+        <% } %>
+      </div>
+    </main>
+
+    <%- include("partials/footer.ejs") %>
+  </body>
+</html>
