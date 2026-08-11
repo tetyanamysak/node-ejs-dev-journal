@@ -6,12 +6,24 @@
     <main>
       <div class="post-detail-container">
         <article class="full-post-card">
+
+          <a href="/post/<%= post.id %>/edit" class="edit-icon-btn" title="Edit Post">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 20h9"></path>
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+            </svg>
+          </a>
+
           <h1><%= post.title %></h1>
 
           <div class="post-meta">
             <span>Post ID: #<%= post.id %></span>
             <span>•</span>
-            <span>Published: <%= new Date().toLocaleDateString() %></span>
+            <span>Published: <%= new Date(post.createdAt).toLocaleDateString() %></span>
+              <% if (post.updatedAt) { %>
+             <span>•</span>
+              <span class="edited-label">Edited: <%= new Date(post.updatedAt).toLocaleDateString() %></span>
+              <% } %>
           </div>
 
           <div class="post-full-text">
@@ -19,7 +31,7 @@
           </div>
 
           <div class="post-navigation">
-            <a href="/" class="read-more">← Back to Blog Home</a>
+              <a href="/" class="read-more">← Back Home</a>
           </div>
         </article>
       </div>

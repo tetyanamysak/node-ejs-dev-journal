@@ -87,6 +87,9 @@ p {
   font-weight: 500;
   font-size: 0.9rem;
   transition: opacity 0.2s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .read-more:hover {
@@ -109,7 +112,6 @@ hr {
   margin: 5rem 0;
 }
 
-/* Styling for the second page */
 .post-detail-container {
   max-width: 850px;
   margin: 3rem auto;
@@ -117,10 +119,53 @@ hr {
 }
 
 .full-post-card {
+  position: relative;
   background-color: var(--card-bg);
   padding: 3rem;
   border-radius: 20px;
   box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-height: 650px;
+}
+
+.edit-icon-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.edit-icon-btn:hover {
+  background-color: var(--text-color);
+  transform: scale(1.1);
+}
+
+.edit-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: var(--bg-color);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.edit-icon:hover {
+  color: var(--text-color);
+  transform: scale(1.15);
+}
+
+.edit-icon svg {
+  width: 28px;
+  height: 28px;
 }
 
 .full-post-card h1 {
@@ -147,20 +192,29 @@ hr {
 }
 
 .post-navigation {
-  margin-top: 3rem;
+  margin-top: auto;
+  padding-top: 2rem;
 }
 
 .post-navigation .read-more {
-  display: inline-block;
-  padding: 0.8rem 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 48px;
   background-color: var(--text-color);
   color: white;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
+  box-sizing: border-box;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: inherit;
 }
-
-/* styling for 404 page  */
 
 .error-page-container {
   display: flex;
@@ -211,4 +265,71 @@ hr {
 .error-actions .read-more:hover {
   background-color: var(--text-color);
   transform: scale(1.05);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--bg-color);
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.8rem;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #f5eeee;
+}
+
+.form-group textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.edit-button,
+.cancel-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 48px;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.edit-button {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+.cancel-button {
+  background-color: #777;
+  color: white;
+}
+
+.edited-label {
+  font-style: italic;
+  opacity: 0.75;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5rem 0;
+  background-color: var(--bg-color);
 }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("partials/header.ejs") %>
+
+  <body>
+    <main>
+      <div class="post-detail-container">
+        <article class="full-post-card">
+          <h1>Edit Post</h1>
+
+          <form action="/post/<%= post.id %>/edit" method="POST">
+            <div class="form-group">
+              <label for="title">Title</label>
+
+              <input
+                type="text"
+                id="title"
+                name="title"
+                value="<%= post.title %>"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="content">Post Text</label>
+
+              <textarea
+                id="content"
+                name="content"
+                rows="12"
+                required
+              ><%= post.content %></textarea>
+            </div>
+
+            <div class="post-navigation">
+              <button type="submit" class="read-more btn">Save Changes</button>
+              <a href="/post/<%= post.id %>" class="cancel-button btn">Cancel</a>
+            </div>
+          </form>
+        </article>
+      </div>
+    </main>
+
+    <%- include("partials/footer.ejs") %>
+  </body>
+</html>

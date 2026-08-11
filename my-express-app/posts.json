@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "Breaking the Code: My Journey into Web Development ",
+    "excerpt": "When I started my first Node.js project, I felt overwhelmed. The idea of a server 'listening' for re...",
+    "content": "When I started my first Node.js project, I felt overwhelmed. The idea of a server 'listening' for requests felt like magic. But as I built my first Express app, I realized that programming is just like building with LEGO bricks. You start with a small foundation—like an app.get route—and gradually add layers like EJS templates and CSS Grid. Today, I'm proud of how far I've come in understanding the full-stack flow.",
+    "createdAt": "2026-08-10",
+    "updatedAt": "2026-08-11T20:03:26.190Z"
+  },
+  {
+    "id": 2,
+    "title": "Why Every Developer Should Embrace the Terminal",
+    "excerpt": "Learning BASH (Bourne Again SHell) changed the way I interact with my computer. Instead of clicking...",
+    "content": "Learning BASH (Bourne Again SHell) changed the way I interact with my computer. Instead of clicking through dozens of folders, I can now create projects, move files, and manage servers with simple text commands. It's not just about looking like a 'hacker'; it's about automation and speed. Once you master 'cd', 'mkdir', and 'npm install', thergoing back to a purely mouse-driven workflow.",
+    "createdAt": "2026-07-12",
+    "updatedAt": "2026-08-11T02:00:46.229Z"
+  },
+  {
+    "id": 3,
+    "title": "Finding Balance: Why I Head to the Mountains to Ski",
+    "excerpt": "There is a deep connection between physical activity and mental clarity. When I am skiing, I am comp...",
+    "content": "There is a deep connection between physical activity and mental clarity. When I am skiing, I am completely in the moment. The crisp air and the rhythm of the slopes help clear the 'cache' in my brain. Often, the solution to a coding problem I've been struggling with for hours suddenly appears while I'm on a chairlift. Remember: 'Ski' is the action, but 'Skiing' is the passion that keeps me energized for my desk job.",
+    "createdAt": "2026-06-10",
+    "updatedAt": "2026-08-11T01:54:34.404Z"
+  },
+  {
+    "id": 4,
+    "title": "The Underrated Skill: Communication in Engineering",
+    "excerpt": "In the tech world, we often focus solely on our technical skills. However, I've learned that 'intell...",
+    "content": "In the tech world, we often focus solely on our technical skills. However, I've learned that 'intelligibility'—the ability to be clearly understood—is just as important. Whether it's during a morning stand-up or writing documentation, clear communication reduces social friction and ensures that projects move forward smoothly. My goal is to develop a global tech accent: clear, professional, and confident.",
+    "createdAt": "2026-05-10",
+    "updatedAt": "2026-08-11T02:27:30.813Z"
+  },
+  {
+    "id": 5,
+    "title": "The Capstone Project: Bringing It All Together",
+    "excerpt": "Building this Capstone project required me to combine Node.js logic, Express routing, and EJS templa...",
+    "content": "Building this Capstone project required me to combine Node.js logic, Express routing, and EJS templating. I had to learn how to handle errors (like the famous MODULE_NOT_FOUND!), how to structure my folders, and how to create a responsive CSS Grid that looks good on any device. This project marks the beginning of my professional portfolio, and I can't wait to see where these skills take me next.",
+    "createdAt": "2026-04-10",
+    "updatedAt": "2026-08-11T02:14:29.317Z"
+  },
+  {
+    "id": 6,
+    "title": "The Power of Lifelong Learning",
+    "excerpt": "In the rapidly evolving world of technology, your most valuable asset isn't what you know today, but how fast you can learn tomorrow.",
+    "content": "Technology moves at a lightning pace. Frameworks that were popular three years ago are being replaced by newer, more efficient tools today. I've realized that being a developer isn't about reaching a destination where you 'know everything.' Instead, it's about staying curious and embracing the unknown. Whether it's picking up a new language or deep-diving into cloud architecture, the ability to learn effectively is what defines a successful career in tech.",
+    "createdAt": "2026-03-13"
+  }
+]
