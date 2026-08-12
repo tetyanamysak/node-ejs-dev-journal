@@ -19,10 +19,8 @@ A responsive web application demonstrating the implementation of Node.js and Exp
 
 </details>
 
-## Blog & Error Pages
+## Error Page
 
-- Blog Page
-  ![Blog Page](screenshots/blog-page.png)
 - 404 Error Page
   ![404 Page](screenshots/error-404.png)
 
