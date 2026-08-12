@@ -18,10 +18,11 @@ A responsive web application demonstrating the implementation of Node.js and Exp
 
 ## Error Page & Desktop Version
 
-- 404 Error Page
-  ![404 Page](screenshots/error-404.png)
 - Desktop Version
   ![Homepage Desktop](screenshots/homepage-desktop.png)
+- 404 Error Page
+  ![404 Page](screenshots/error-404.png)
+
 
 ## Editing Posts
 
