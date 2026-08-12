@@ -9,9 +9,6 @@ A responsive web application demonstrating the implementation of Node.js and Exp
 
 <details>
   <summary>Click to view screenshots (Desktop, Tablet, Mobile)</summary>
-
-- Desktop Version
-  ![Homepage Desktop](screenshots/homepage-desktop.png)
 - Tablet Version
   ![Homepage Tablet](screenshots/homepage-tablet.png)
 - Mobile Version
@@ -19,10 +16,12 @@ A responsive web application demonstrating the implementation of Node.js and Exp
 
 </details>
 
-## Error Page
+## Error Page & Desktop Version
 
 - 404 Error Page
   ![404 Page](screenshots/error-404.png)
+- Desktop Version
+  ![Homepage Desktop](screenshots/homepage-desktop.png)
 
 ## Editing Posts
 
