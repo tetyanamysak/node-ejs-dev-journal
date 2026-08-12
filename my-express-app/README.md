@@ -9,6 +9,7 @@ A responsive web application demonstrating the implementation of Node.js and Exp
 
 <details>
   <summary>Click to view screenshots (Desktop, Tablet, Mobile)</summary>
+
 - Tablet Version
   ![Homepage Tablet](screenshots/homepage-tablet.png)
 - Mobile Version
@@ -16,13 +17,12 @@ A responsive web application demonstrating the implementation of Node.js and Exp
 
 </details>
 
-## Error Page & Desktop Version
+## Desktop Version & Error Page 
 
 - Desktop Version
   ![Homepage Desktop](screenshots/homepage-desktop.png)
 - 404 Error Page
   ![404 Page](screenshots/error-404.png)
-
 
 ## Editing Posts
 
@@ -43,7 +43,7 @@ Posts can be edited in place using the pencil icon on the post page. Saved edits
 - Error Handling: Custom 404 page for missing routes.
 - Content: Insights on Node.js, BASH, and Skiing.
 
-Tech Stack
+**Tech Stack**
 Backend: Node.js & Express
 Frontend: EJS & CSS
 
@@ -52,20 +52,3 @@ Frontend: EJS & CSS
 ## Setup
 
 Install dependencies:
-npm install
-
-## Run the server:
-
-node app.js
-
-Visit: http://localhost:3030
-
----
-
-Project Structure
-
-app.js - Server logic
-views/ - EJS templates
-public/ - CSS styles
-
-Created by Tetyana
