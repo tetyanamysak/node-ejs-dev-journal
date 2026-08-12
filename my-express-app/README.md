@@ -52,3 +52,18 @@ Frontend: EJS & CSS
 ## Setup
 
 Install dependencies:
+
+npm install
+
+node app.js
+
+Visit: http://localhost:3030
+
+---
+
+**Project Structure**
+- app.js - Server logic
+- views/ - EJS templates
+- public/ - CSS styles
+
+Created by Tetyana
